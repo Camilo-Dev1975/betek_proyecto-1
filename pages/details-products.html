@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/details-product.css">
+    <script src="../scripts/details-product.js"></script>
     <title>Darling - Shop</title>
 </head>
 <body>
@@ -19,7 +20,7 @@
                     <a href="#"><li>Contact</li></a>
                 </ul>
                 <img src="../images/imgs-details-product/Profile 5.png" alt="">
-                <img src="../images/imgs-details-product/Shopping cart 5.png" alt="">
+                <img onclick="toggleMenu()" src="../images/imgs-details-product/Shopping cart 5.png" alt="">
             </div>
         </nav>
     </header>
@@ -32,6 +33,54 @@
                 <a href="product-listing.html"><p>Shop</p></a>
                 <img src="../images/imgs-details-product/Arrow forward ios 1.png" alt="">
                 <a href="details-products.html"><p>Luxury Charms</p></a>
+            </div>
+            <div class="mycar">
+                <div class="mycar_top">
+                    <p>Your Cart</p>
+                    <div class="close-btn" onclick="toggleMenu()">X</div>
+                </div> 
+                <div class="mycar_obj1">
+                    <img src="../images/imgs-details-product/mycart/Image 6 (2).png" alt="">
+                    <div class="mycar_obj1-text">
+                        <p>Luxury Charms Ring</p>
+                        <p>Code: 78205</p>
+                        <p>$620.73</p>
+                    </div>
+                    <div class="mycar_obj1-left">
+                        1X
+                    </div>
+                </div>
+                <hr>
+                <div class="mycar_obj2">
+                    <img src="../images/imgs-details-product/mycart/Image 6 (1).png" alt="">
+                    <div class="mycar_obj2-text">
+                        <p>Exquisite Earrrings</p>
+                        <p>Code: 92701</p>
+                        <p>$125.28</p>
+                    </div>
+                    <div class="mycar_obj2-left">
+                        1X
+                    </div>
+                </div>
+                <hr>
+                <div class="mycar_obj3">
+                    <img src="../images/imgs-details-product/mycart/Image 6.png" alt="">
+                    <div class="mycar_obj3-text">
+                        <p>Luxury Charms Ring</p>
+                        <p>Code: 78201</p>
+                        <p>$327.71</p>
+                    </div>
+                    <div class="mycar_obj3-left">
+                        1X
+                    </div>
+                </div>
+                <div class="mycar_bottom">
+                    <p>Total:</p>
+                    <p>$621.75</p>
+                </div>
+                <div class="mycar_button-submit">
+                    <a href="add-payment.html"><button>Continue to check out</button></a>
+                </div>
             </div>
             <div class="container_box1">
                 <div class="imgs_left">
@@ -77,7 +126,7 @@
                     <button> + </button> 
                 </div>
                 <div class="box1_info-buy-car">
-                    <button class="box1_info-add-car"><img src="../images/imgs-details-product/Add shopping cart.png" alt="">Add to bag</button>
+                    <button onclick="toggleMenu()"  class="box1_info-add-car"><img src="../images/imgs-details-product/Add shopping cart.png" alt="">Add to bag</button>
                     <a href="add-payment-method.html"><button class="box1_info-buy">Buy Now</button></a>
                 </div>
                 <div class="container_columns-desplegables">
@@ -107,7 +156,9 @@
                     </div>
                 </div>
                 </div>
+               
             </div>
+
         </article>
         <!-- BOX 2-->
         <article>

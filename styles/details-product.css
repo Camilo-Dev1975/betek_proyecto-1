@@ -50,9 +50,136 @@ body {
     font-size: 14px;
     line-height: 22px;
 }
+
+.mycar{
+    width: 440px;
+    height: 850px;
+    background-color: #FFFFFF;
+    display: none;
+    position: absolute;
+    border: 1px solid #ccc;
+    left: 907px;
+    top: 0px;
+    border-radius: 7px;
+}
+
+
+.mycar hr {
+    margin: 0px 30px 0px 20px;
+}
+.close-btn{
+    cursor: pointer;
+    font-size: 20px;
+    color: #888;
+}
+
+.mycar_top{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 30px 20px 10px;
+}
+
+.mycar_obj1{
+    display: flex;
+    padding: 10px 30px 20px 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.mycar_obj1-text p{
+    margin: 0px 17px 0px 0px;
+}
+
+.mycar_obj1 img {
+    width: 94px;
+    height: 94px;
+}
+
+.mycar_obj1-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.mycar_obj2{
+    display: flex;
+    padding: 30px 30px 20px 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.mycar_obj2-text p{
+    margin: 0px 30px 0px 0px;
+}
+
+.mycar_obj2 img{
+    width: 94px;
+    height: 94px;
+}
+
+.mycar_obj2-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.mycar_obj3{
+    display: flex;
+    padding: 30px 30px 20px 20px;
+    gap: 20px;
+    align-items: center;
+}
+
+.mycar_obj3-text p{
+    margin: 0px 20px 0px 0px;
+}
+
+.mycar_obj3 img{
+    width: 94px;
+    height: 94px;
+}
+
+.mycar_obj3-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.mycar_top p{
+    font-size: 40px;
+    font-weight: 600;
+    color: #0D554A;
+}
+
+.mycar_bottom{
+    margin: 200px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    gap: 220px;
+}
+
+.mycar_button-submit button{
+    height: 52px;
+    width: 368px;
+    border-radius: 26px;
+    background-color: #0D554A;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.mycar_button-submit{
+    margin: 25px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
 .container_box1{
     display: flex;
-    justify-content: flex-start;
 }
 
 .directory-web{
@@ -540,10 +667,6 @@ article h3{
     display: flex;
     gap: 13px;
 }
-
-
-
-
 
 
 img {
